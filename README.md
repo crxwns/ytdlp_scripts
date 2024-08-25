@@ -4,12 +4,16 @@ Compares videos uploaded to a channel with videos downloaded to a folder.
 
 # Usage
 
-Clone the repo and `cd` into it.
-
 ```pwsh
-uv tool install .
+uv tool install git+https://github.com/crxwns/ytdlp_scripts
 
 missing --help
 
 missing -c "@XYS" -d PATH/TO/FOLDER
+```
+
+# Uninstall
+
+```pwsh
+uv tool uninstall ytdlp_scripts
 ```
